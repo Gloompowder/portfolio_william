@@ -11,6 +11,7 @@ class Contact extends React.Component {
                 <input type= "text" name = "subject"></input>
                 <label for="Message">Message</label>
                 <input type="text-area" name="message"></input>
+                <input type="button" value="Submit"/>
             </form>
         )
     }

@@ -6,13 +6,15 @@ class Nav extends React.Component {
     render(){
         return(
             <div className="Nav">
+                <img src ="" alt ="" />
                 <ul>
                     <li> <Link to="/">Home</Link></li>
                     <li> <Link to="/designer">Develop</Link></li>
                     <li> <Link to="/developer">Design</Link></li>
                     <li> <Link to="/contact">Contact</Link></li>
-                    <IconLink/>
                 </ul>
+                    <button>Contact</button>
+                <IconLink/>
             </div>
         )
     }

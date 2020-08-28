@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  text-emphasis-style: none;
+}
+
+.Nav {
+  background-color: black;
+  color: white;
+  padding: 10px 
+}
+
+.Nav ul{
+  display: inline-flex;
+  margin: 0;
+  align-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Home {
+  text-align: center;
+  align-content: center;
+  margin: auto;
+}
+
+.Nav button {
+  border-radius: 15px;
+  border-color: rgb(0, 255, 157);
+  border-style: solid;
+  background-color: black;
+  color: rgb(0, 255, 157);
+  padding: 5px;
+}
+.resume-button {
+  border-radius: 15px;
+  border-color: black;
+  border-style: solid;
+  background-color: black;
+  color: white;
+  padding: 5px
+}
+.Home {
+  padding: 25% 30%;
+}
+
+.Contact input {
+  
+}
