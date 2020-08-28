@@ -12,7 +12,7 @@ import DesProject from './components/DesProject';
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Nav /> 
       <Switch />
         <Route path = '/developer/:id' component = { DevProject } />
         <Route path = '/designer/:id' component = { DesProject } />

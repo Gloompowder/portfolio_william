@@ -1,4 +1,4 @@
-import React from 'react-dom'
+import React from 'react'
 
 class DesProject extends React.Component {
     render(){
